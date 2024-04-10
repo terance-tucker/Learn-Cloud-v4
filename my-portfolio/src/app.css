@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe ui', Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    margin: 10px 10px 0px;
+    padding: 0;
+    color: #1f1f1f;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+p {
+    margin-block-start: 4px;
+}
+
+.project p {
+    color: #1f1f1f;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px 0px 20px 10px;
+    letter-spacing: .02em;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+.content {
+    margin: 10px;
+    width: 600px;
+    margin: auto;
+}
+
+.project {
+    margin: 20px auto;
+    width: 350px;
+    background-size: cover;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(206, 206, 206, 0.4);
+}
+
+.project:nth-child(1) .image {
+    background-image: url("images/project1.png"), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8));
+}
+.project:nth-child(2) .image {
+    background-image: url("images/project2.png"), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8));
+}
+.project:nth-child(3) .image {
+    background-image: url("images/project3.png"), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8));
+}
+
+.image {
+    height: 130px;
+    width: 100%;
+    background-size: cover;
+}
